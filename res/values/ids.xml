@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--请注意，不要使用这个文件保存viewid-->
+<resources>
+    <item name="selected_view" type="id"/>
+    <item name="tag_view" type="id"/>
+    <item name="tag_info" type="id"/>
+    <item name="tag_url" type="id"/>
+    
+</resources>

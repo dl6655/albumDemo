@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 相册中的pic_Item -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <com.lq.albumDemo.image.WebImageView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:id="@+id/pic_item_id"
+               android:scaleType="centerCrop"
+               android:background="#f7f7f7"/>
+    
+    
+
+    <com.lq.albumDemo.widget.CheckableLinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="6dp"
+        android:id="@+id/pic_item_chackbox_id"
+        android:background="@drawable/pic_select_checkbox"
+        />
+
+</RelativeLayout>
